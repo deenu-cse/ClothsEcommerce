@@ -51,6 +51,20 @@
   color: green;
 }
 
+
+
+
+
+@media screen and (max-width:535px) {
+  .navbtn button{
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  .navbar{
+    margin: 0px;
+  }
+}
 @media screen and (max-width:570px) {
   .navbtn {
     margin: 20px 0px;

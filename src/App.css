@@ -153,10 +153,7 @@ body ,html{
   /* margin: 0 auto; */
 }
 
-.center{
-  display: flex;
-  justify-content: center;
-}
+
 
 .primg {
   display: grid;
@@ -227,11 +224,14 @@ body ,html{
   .primg {
     grid-template-columns: repeat(1, 1fr);
   }
+  .primg img{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width:550px) {
   .tick {
-    width: 100%;
+    width: 90%;
     padding-left: 20px;
   }
 }
@@ -243,7 +243,7 @@ body ,html{
 
   .logoinfo {
     margin: 0 auto;
-    width: 100%;
+    width: 95%;
   }
 }
 
