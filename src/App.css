@@ -173,6 +173,25 @@ body ,html{
   color: green;
 }
 
+.nextbtn button{
+  margin: 0px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 25px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  outline: none;
+  font-weight: 500;
+  border: none;
+}
+.nextbtn{
+  display: flex;
+  justify-content: center;
+}
+.nextbtn button:hover {
+  background-color: #ddd;
+}
 
 
 

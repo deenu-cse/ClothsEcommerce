@@ -36,6 +36,8 @@ import f14 from '../images3/file (20).png'
 import f15 from '../images3/file (21).png'
 import f16 from '../images3/file (22).png'
 import f17 from '../images3/file (23).png'
+import Upload from '../component/upload/upload'
+import { Link } from 'react-router-dom'
 
 
 
@@ -165,7 +167,16 @@ export default function Home() {
               <img src={f16} />
             </div>
           </div>
-          <br /><br />
+          <br /><br /><br />
+          <div className='nextbtn'>
+            <Link to={'/explore'}>
+              <button>Explore</button>
+            </Link>
+            <Link to={'/create'}>
+              <button>Create T-Shirt</button>
+            </Link>
+          </div>
+          <br /><br /><br />
         </div>
       </div>
     </div>

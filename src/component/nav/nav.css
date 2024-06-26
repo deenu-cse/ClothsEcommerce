@@ -70,3 +70,17 @@
     margin: 20px 0px;
   }
 }
+
+@media screen and (max-width:412px) {
+  .navbtn button span{
+    display: none;
+  }
+}
+@media screen and (max-width:368px) {
+  .navbar-container h3 {
+    width: 10px;
+  }
+  .navbar-container h3 img{
+    width: 25px;
+  }
+}

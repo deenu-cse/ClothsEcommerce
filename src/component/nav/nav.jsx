@@ -11,7 +11,7 @@ export default function Nav() {
           <div className='navbtn'>
             <button>Sign-Up</button>
             <button>Log-In</button>
-            <button>Create T-Shirt</button>
+            <button>Create <span>T-Shirt</span></button>
           </div>
         </div>
       </nav>
